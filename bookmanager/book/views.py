@@ -5,5 +5,7 @@ from django.http import HttpRequest
 from django.http import HttpResponse
 
 def index(request):
-    
-    return HttpResponse('流星锤')
+    context = {
+        'name' : 'learn more'
+    }
+    return render(request, 'book/index.html', context=context)
