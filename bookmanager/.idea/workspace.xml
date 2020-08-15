@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="093619e2-8358-499c-addb-632d7a1f70c4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bookmanager/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanager/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,8 +55,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bookmanager/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="83" column="22" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="22" />
+            <state relative-caret-position="317">
+              <caret line="126" column="16" selection-start-line="126" selection-start-column="16" selection-end-line="126" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -110,23 +109,7 @@
             <path>
               <item name="bookmanager" type="b2602c69:ProjectViewProjectNode" />
               <item name="bookmanager" type="462c0819:PsiDirectoryNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bookmanager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bookmanager" type="462c0819:PsiDirectoryNode" />
-              <item name="bookmanager" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bookmanager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bookmanager" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bookmanager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bookmanager" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -145,6 +128,11 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -196,22 +184,23 @@
       <updated>1597400950742</updated>
       <workItem from="1597400952180" duration="8011000" />
       <workItem from="1597461411443" duration="924000" />
-      <workItem from="1597464893573" duration="891000" />
+      <workItem from="1597464893573" duration="2081000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9826000" />
+    <option name="totallyTimeSpent" value="11016000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1851" height="941" extended-state="6" />
+    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18454698" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18434203" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.39146802" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.39077938" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -220,14 +209,14 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.33124214" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.28979144" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.32998747" />
       <window_info anchor="bottom" id="Python Console" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" weight="0.32962757" />
-      <window_info anchor="right" id="Database" order="4" weight="0.18121178" />
+      <window_info anchor="right" id="Database" order="4" weight="0.18101054" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,15 +225,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/ab9f2698-d3d3-4d00-b914-46a06e51d0ef/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="das://a78e9fbd-c0e3-4582-bf93-f7262fc40f7b/schema/main/table/book_bookinfo">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="bc37d566-8b83-41d3-9341-3f5c6bd3aa4a">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/book/models.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -306,10 +286,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="das://a78e9fbd-c0e3-4582-bf93-f7262fc40f7b/schema/main/table/book_bookinfo">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="e0f70529-3706-46db-ae8e-34b686592e10">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/picture.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/bookmanager/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="83" column="22" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="22" />
+        <state relative-caret-position="317">
+          <caret line="126" column="16" selection-start-line="126" selection-start-column="16" selection-end-line="126" selection-end-column="16" />
         </state>
       </provider>
     </entry>
