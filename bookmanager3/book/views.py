@@ -48,6 +48,26 @@ def detail(request):
     return response
 
 
+from  django.http import JsonResponse
+def json_response(request):
+    user_info = {
+            "user_id":123,
+            "username":"asd"
+        }
+
+    return JsonResponse(user_info)
+
+
+    # user_info = {
+    #     "user_id":123,
+    #     "username":"asd"
+    # }
+    # import json
+    # user_str = json.dumps(user_info)
+    #
+    # return HttpResponse(user_str)
+
+
 '''
 查询练习
 '''
