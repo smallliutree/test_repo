@@ -40,6 +40,14 @@ def header(request):
     return HttpResponse('header')
 
 
+def detail(request):
+
+    response = HttpResponse(content='内容', content_type='text/html', status=200)
+    response['asd'] = '123'
+
+    return response
+
+
 '''
 查询练习
 '''
