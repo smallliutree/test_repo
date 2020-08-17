@@ -34,6 +34,12 @@ def login_json(request):
     return HttpResponse('json')
 
 
+def header(request):
+    print(request.META)
+
+    return HttpResponse('header')
+
+
 '''
 查询练习
 '''
