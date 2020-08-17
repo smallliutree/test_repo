@@ -1,9 +1,22 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+from django.http import HttpResponse, HttpRequest
 # Create your views here.
 def index(request):
 
     return HttpResponse('ok')
+
+
+def readbook(requset, cat_id, book_id):
+    content = f'cat:{cat_id}, book:{book_id}'
+
+    print(requset.GET)
+    keyword = requset.GET.getlist('keyword')
+    print(keyword)
+
+    return HttpResponse('ok')
+
+
+
 
 '''
 查询练习
