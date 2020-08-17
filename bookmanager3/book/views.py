@@ -16,6 +16,10 @@ def readbook(requset, cat_id, book_id):
     return HttpResponse('ok')
 
 
+def login(requset):
+    print(requset.POST)
+
+    return HttpResponse('login')
 
 
 '''
