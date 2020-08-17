@@ -4,3 +4,14 @@ from django.http import HttpResponse
 def index(request):
 
     return HttpResponse('ok')
+
+'''
+查询练习
+'''
+from book.models import BookInfo, PeopleInfo
+
+book = BookInfo.objects.get(id=1)
+book.peopleinfo_set.all()
+
+person = PeopleInfo.objects.get(id=1)
+person.book
