@@ -22,6 +22,18 @@ def login(requset):
     return HttpResponse('login')
 
 
+def login_json(request):
+    body = request.body
+    body_str = body.decode()
+    print(body_str)
+
+    import json
+    body_dict = json.loads(body_str)
+    print(body_dict)
+
+    return HttpResponse('json')
+
+
 '''
 查询练习
 '''
