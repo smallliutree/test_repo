@@ -1,5 +1,5 @@
 from django.urls import path
-from book.views import index, readbook, login, login_json, header, detail, json_response
+from book.views import index, readbook, login, login_json, header, detail, json_response, to_index
 
 urlpatterns = [
     path('index/',index),
@@ -9,4 +9,5 @@ urlpatterns = [
     path('header/',header),
     path('detail/',detail),
     path('json_response/',json_response),
+    path('to_index/',to_index)
 ]

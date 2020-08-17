@@ -58,6 +58,11 @@ def json_response(request):
     return JsonResponse(user_info)
 
 
+from django.shortcuts import redirect
+def to_index(request):
+
+    return redirect('https://github.com/smallliutree/test_repo')
+
     # user_info = {
     #     "user_id":123,
     #     "username":"asd"
