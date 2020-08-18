@@ -102,6 +102,12 @@ def register(request, phone):
 def new_login(request):
     username = request.GET.get('username')
     response = HttpResponse('login')
-    response.set_cookie(key='username', value=username)
+    response.set_cookie(key='username', value=username, max_age=30)
 
     return response
+
+def get_cookie(request):
+    print(request.COOKIES)
+    username = request.COOKIES.get('username')
+
+    return HttpResponse(username)

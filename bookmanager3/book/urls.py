@@ -24,4 +24,5 @@ urlpatterns = [
     path('p/<int:tieba_id>/',views.baidu_tieba),
     path('register/<mobile:phone>/',views.register),
     path('new_login/',views.new_login),
+    path('get_cookie/',views.get_cookie),
 ]
