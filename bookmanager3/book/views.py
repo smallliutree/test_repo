@@ -125,3 +125,22 @@ def get_session(request):
     # request.session.flush()
 
     return HttpResponse(user_id)
+
+def new_reg(request):
+
+    print(request.method)
+    if request.method == 'GET':
+        return HttpResponse('get')
+    elif request.method == 'POST':
+        return HttpResponse('post')
+    else:
+        return HttpResponse('other')
+
+from django.views import View
+class RegisterView(View):
+
+    def get(self, request):
+        return HttpResponse('view get')
+
+    def post(self, request):
+        return HttpResponse('view post')
