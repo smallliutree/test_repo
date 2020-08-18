@@ -111,3 +111,13 @@ def get_cookie(request):
     username = request.COOKIES.get('username')
 
     return HttpResponse(username)
+
+def set_session(request):
+    request.session['user_id'] = 'asd'
+
+    return HttpResponse('set_session')
+
+def get_session(request):
+    user_id = request.session['user_id']
+
+    return HttpResponse(user_id)

@@ -25,4 +25,6 @@ urlpatterns = [
     path('register/<mobile:phone>/',views.register),
     path('new_login/',views.new_login),
     path('get_cookie/',views.get_cookie),
+    path('set_session/',views.set_session),
+    path('get_session/',views.get_session),
 ]
