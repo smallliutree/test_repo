@@ -98,3 +98,10 @@ def baidu_tieba(request, tieba_id):
 def register(request, phone):
 
     return HttpResponse(phone)
+
+def new_login(request):
+    username = request.GET.get('username')
+    response = HttpResponse('login')
+    response.set_cookie(key='username', value=username)
+
+    return response
