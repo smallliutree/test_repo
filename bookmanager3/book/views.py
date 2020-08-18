@@ -114,10 +114,14 @@ def get_cookie(request):
 
 def set_session(request):
     request.session['user_id'] = 'asd'
+    request.session.set_expiry(None)
 
     return HttpResponse('set_session')
 
 def get_session(request):
     user_id = request.session['user_id']
+
+    # request.session.clear()
+    # request.session.flush()
 
     return HttpResponse(user_id)
