@@ -144,3 +144,13 @@ class RegisterView(View):
 
     def post(self, request):
         return HttpResponse('view post')
+
+
+from django.contrib.auth.mixins import LoginRequiredMixin
+class CenterView(LoginRequiredMixin, View):
+
+    def get(self, request):
+        return HttpResponse('center get')
+
+    def post(self, request):
+        return HttpResponse('center post')

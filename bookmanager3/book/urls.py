@@ -28,5 +28,6 @@ urlpatterns = [
     path('set_session/',views.set_session),
     path('get_session/',views.get_session),
     path('new_reg/',views.new_reg),
-    path('reg/',views.RegisterView.as_view())
+    path('reg/',views.RegisterView.as_view()),
+    path('center/',views.CenterView.as_view()),
 ]
