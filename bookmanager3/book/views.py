@@ -89,3 +89,12 @@ BookInfo.objects.filter(peopleinfo__description__contains='八')
 
 PeopleInfo.objects.filter(book__name='天龙八部')
 PeopleInfo.objects.filter(book__readcount__gt=30)
+
+
+def baidu_tieba(request, tieba_id):
+
+    return HttpResponse(tieba_id)
+
+def register(request, phone):
+
+    return HttpResponse(phone)
