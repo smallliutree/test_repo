@@ -6,14 +6,19 @@
 </head>
 <body>
 <div id="app">
-	<a href="">{{username}}</a>
+	<a :href="web">{{username}}</a>
+	<hr>
+	<a v-bind:href="vue">[[username]]</a>
 </div>
 </body>
 <script type="text/javascript">
 	var app = new Vue({
   		el: '#app',
+  		delimiters: ["[[","]]"],
   		data: {
-    		username: 'laowang'
+    		username: 'laowang',
+    		vue: 'file:///home/ubuntu/Desktop/Vue/base/data.html',
+    		web: 'file:///home/ubuntu/Desktop/Django%E5%9F%BA%E7%A1%80/index.html'
   		}
 	})
 </script>
