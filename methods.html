@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+<div id="app">
+	{{message}}
+	<hr>
+	<button v-on:click='count+=1'>Add 1</button>
+	<p>count:{{count}}</p>
+	<hr>
+	<button v-on:click='showAlert(count)'>出现一个弹窗</button>
+</div>
+</body>
+<script type="text/javascript">
+	var app = new Vue({
+  		el: '#app',
+  		data: {
+    		message: 'Hello Vue!',
+    		count: 0
+  		},
+  		methods: {
+  			showAlert: function(a){
+  				alert('warning ' + a)
+  				// alert(a)
+  			}
+  		}
+	})
+</script>
+</html>
