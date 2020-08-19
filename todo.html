@@ -11,9 +11,7 @@
 	<button v-on:click='show'>add</button>
 	<hr>
 	<ul>
-		<li>1</li>
-		<li>2</li>
-		<li>3</li>
+		<li v-for='item in todos'>{{item}}</li>
 	</ul>
 </div>
 </body>
@@ -22,11 +20,14 @@
 		el: '#app',
 		data: {
 			message: 'hello',
-			todo: ''
+			todo: '',
+			todos: []
 		},
 		methods: {
 			show: function(){
-				alert(this.todo)
+				// alert(this.todo)
+				this.todos.push(this.todo)
+				// alert(this.todos)
 			}
 		}
 	})
